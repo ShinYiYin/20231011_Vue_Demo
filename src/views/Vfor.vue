@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-    <h1>v-for</h1>
+    <h3>• v-for 教學</h3>
     <!-- arr -->
     <p v-for=" item in arr">{{ item }}</p>
 
@@ -38,4 +38,10 @@ export default {
     </ol>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+h3{
+    margin: 20px 0;
+    background-color: rgb(251, 226, 230);
+    color: rgb(251, 107, 124);
+}
+</style>

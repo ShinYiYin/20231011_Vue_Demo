@@ -10,6 +10,6 @@
 .area{
     width: 200px;
     height: 50px;
-    background-color: aquamarine;
+    background-color: lightpink;
 }
 </style>

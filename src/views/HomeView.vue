@@ -19,7 +19,7 @@
     <h1>Home</h1>
   </div>
   <div class="showContent">
-    
+    <p>content</p>
   </div>
 </template>
 

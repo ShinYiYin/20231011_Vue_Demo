@@ -13,10 +13,16 @@ import { RouterLink } from 'vue-router'
         <RouterLink class="routerItem" to="/">Home</RouterLink>
         <RouterLink class="routerItem" to="/VtextAndVModel">v-text & v-model</RouterLink>
         <RouterLink class="routerItem" to="/Vfor">v-for</RouterLink>
-        <RouterLink class="routerItem" to="/HW1">HW1</RouterLink>
-        <RouterLink class="routerItem" to="/HW2">HW2</RouterLink>
-        <RouterLink class="routerItem" to="/Bootstrap">Bootstrap</RouterLink>
         <RouterLink class="routerItem" to="/Von">v-on</RouterLink>
+        <RouterLink class="routerItem" to="/Vbind">v-bind</RouterLink>
+        <RouterLink class="routerItem" to="/VifAndVshow">v-if & v-show</RouterLink>
+        <RouterLink class="routerItem" to="/VueRouter">Vue Router</RouterLink>
+        <RouterLink class="routerItem" to="/Props">Props</RouterLink>
+        <RouterLink class="routerItem" to="/Emit">Emit</RouterLink>
+        <RouterLink class="routerItem" to="/Bootstrap">Bootstrap</RouterLink>
+        <RouterLink class="routerItem" to="/Practice">Practice</RouterLink>
+        
+        
     </nav>
 </template>
 
@@ -24,18 +30,18 @@ import { RouterLink } from 'vue-router'
 
 
 .topNav{
-    width: 100%;
-    height: 5vh;
+    width: 100vw;
+    height: auto;
     background-color: pink;
     font-size: 16pt;
     // text-align: center;
     color: white;
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
 
     .routerItem{
-        margin: 20px 20px;
+        margin: 10px 15px;
         text-decoration: none;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: white;

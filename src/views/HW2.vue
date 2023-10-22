@@ -39,6 +39,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+
 .topArea{
     width: 100%;
     height: 5vh;

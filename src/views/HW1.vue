@@ -13,7 +13,7 @@ export default{
     <div class="topArea">
     </div>
 
-    <div class="secondArea">
+    <div class="secondArea" >
         <p v-for="item in arr"></p>
     </div>
 
