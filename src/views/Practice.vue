@@ -22,7 +22,7 @@ export default{
         <!-- 自己寫法：<RouterLink class="routerItem" to="/Estate">Estate</RouterLink> -->
         <li><RouterLink class="routerItem" to="/Props_sign">Props_sign</RouterLink></li>
         <li><RouterLink class="routerItem" to="/Emit_sign">Emit & Props_sign</RouterLink></li>
-        <li><RouterLink class="routerItem" to="/Accounting">Accounting</RouterLink></li>
+        <li><RouterLink class="routerItem" to="/Accounting_Login">Accounting</RouterLink></li>
     </ul>
     <RouterView />
     

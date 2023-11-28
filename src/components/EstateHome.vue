@@ -1,11 +1,11 @@
 <script>
-// import { RouterView, RouterLink } from 'vue-router'
-// export default {
-//     components: {
-//         RouterLink,
-//         RouterView
-//     }
-// }
+export default {
+    methods:{
+        goToSearch(){
+            this.$router.push('/Estate/EstateSearch')
+        }
+    }
+}
 </script>
 
 <template>
@@ -45,9 +45,9 @@
         </div>
     </div>
     <div class="footer">
-        <button type="button" class="footerBtn">タッグから探す</button>
-        <button type="button" class="footerBtn">エリアから探す</button>
-        <button type="button" class="footerBtn">沿線 駅から探す</button>
+        <button type="button" class="footerBtn" @click="goToSearch">タッグから探す</button>
+        <button type="button" class="footerBtn" @click="goToSearch">エリアから探す</button>
+        <button type="button" class="footerBtn" @click="goToSearch">沿線 駅から探す</button>
     </div>
 
 </template>

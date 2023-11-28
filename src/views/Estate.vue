@@ -1,15 +1,21 @@
-<script setup>
+<script>
 // import EstateHome from "../components/EstateHome.vue"
 import { RouterView, RouterLink } from 'vue-router'
-
+export default{
+    methods:{
+        goToHome(){
+            this.$router.push('/Estate/EstateHome')
+        }
+    }
+}
 
 </script>
 
 <template>
     <div class="header">
         <div class="headerLeft">
-            <div class="square">
-            </div>
+            <button type="button" class="square" @click="goToHome">
+            </button>
             <p>会社案内 | 店舗アクセス</p>
         </div>
         <div class="headerRight">
@@ -48,6 +54,7 @@ $backgroundColor: #BFC0CC;
             width: 40px;
             height: 40px;
             background-color: $mainColor;
+            border: none;
         }
 
         p {

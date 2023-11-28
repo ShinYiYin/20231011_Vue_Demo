@@ -74,6 +74,18 @@ const router = createRouter({
           path: 'EstatePerson' ,
           component: () => import('../components/EstatePerson.vue')
         },
+        {
+          path: 'EstateSearch' ,
+          component: () => import('../components/EstateSearch.vue')
+        },
+        {
+          path: 'EstateObjList' ,
+          component: () => import('../components/EstateObjList.vue')
+        },
+        {
+          path: 'EstateObj' ,
+          component: () => import('../components/EstateObj.vue')
+        },
       ]
     },
     {
@@ -110,9 +122,34 @@ const router = createRouter({
       component: () => import('../components/Emit_sign.vue'),
     },
     {
+      path: '/ProvideAndInject',
+      name: 'ProvideAndInject',
+      component: () => import('../views/ProvideAndInject.vue'),
+    },
+    {
+      path: '/WatchAndComputed',
+      name: 'WatchAndComputed',
+      component: () => import('../views/WatchAndComputed.vue'),
+    },
+    {
       path: '/Accounting',
       name: 'Accounting',
       component: () => import('../views/Accounting.vue'),
+    },
+    {
+      path: '/Accounting_Login',
+      name: 'Accounting_Login',
+      component: () => import('../components/Accounting_Login.vue'),
+    },
+    {
+      path: '/Accounting_Signup',
+      name: 'Accounting_Signup',
+      component: () => import('../components/Accounting_Signup.vue'),
+    },
+    {
+      path: '/Accounting_Show',
+      name: 'Accounting_Show',
+      component: () => import('../components/Accounting_Show.vue'),
     },
     {
       path: '/HW1',
@@ -133,6 +170,16 @@ const router = createRouter({
       path: '/HW4',
       name: 'HW4',
       component: () => import('../views/HW4.vue')
+    },
+    {
+      path: '/Practice copy',
+      name: 'Practice copy',
+      component: () => import('../views/Practice copy.vue')
+    },
+    {
+      path: '/Practice_2',
+      name: 'Practice_2',
+      component: () => import('../views/Practice_2.vue')
     },
   ]
 })

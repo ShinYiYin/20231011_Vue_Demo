@@ -14,10 +14,10 @@ import {RouterLink, RouterView} from 'vue-router'
 </template>
 
 <style lang="scss" scoped>
-    .content{
-        // text-align: center;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+    // .content{
+    //     text-align: center;
+    //     margin-top: 20px;
+    //     margin-left: 30px;
+    //     margin-right: 30px;
+    // }
 </style>

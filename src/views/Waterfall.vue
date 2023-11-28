@@ -2,7 +2,7 @@
 export default{
     data(){
         return{
-
+            arr:[1, 2, 3, 4, 5, 6, 7, 8, 9],
         }
     }
 }
@@ -29,6 +29,7 @@ export default{
     height: 10vh;
     display:flex;
     align-items: center;
+    margin-left: 10px;
     
 
     .homeBtn{
@@ -59,6 +60,7 @@ export default{
         opacity:0.4;
         color: black;
         margin: 0 10px;
+        text-indent: 10px;
     }
 }
 
