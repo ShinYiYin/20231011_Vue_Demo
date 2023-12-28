@@ -3,6 +3,8 @@
 //pinia變數只能在pinia改，不能在vue改變
 
 import { defineStore } from "pinia";
+
+//類似addEventListener("click", ()=>{})
 export default defineStore("indexState", {
     //data
     state: () => ({
